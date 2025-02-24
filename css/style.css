@@ -932,17 +932,20 @@ h1.john {
 .contact-pg {
   width: 100%;
 }
+
 /* inputs  */
 .input {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 /* contact conatier  */
 .contact-container {
   padding: 20px;
   display: flex;
 }
+
 /* p tag in contact container  */
 .contact-container p {
   font-family: "oxygen-regular";
@@ -999,6 +1002,7 @@ h1.john {
 .ok {
   font-size: 20px;
 }
+
 /* button  */
 .button {
   height: 100px;
@@ -1009,6 +1013,7 @@ h1.john {
   align-items: center;
   margin-top: 30px;
 }
+
 /* two locations  */
 .two-location {
   display: flex;
@@ -1081,26 +1086,31 @@ h1.john {
   border-radius: 50%;
   object-fit: contain;
 }
+
 /* p  */
 .content-logo p {
   color: grey;
 }
+
 /* last container  */
 .last-container {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
+
 /* p in last container  */
 .last-container p {
   font-size: 20px;
   font-family: "oxygen-bold";
   color: white;
 }
+
 /* last footer  */
 .footer-ends {
   background-color: rgba(41, 42, 57, 255);
 }
+
 /* Existing CSS code remains unchanged */
 
 /* Media Queries */
