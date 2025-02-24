@@ -47,7 +47,7 @@
 /* header  */
 header {
   height: 500px;
-  background-image: url(/assets/mountain-peak-above-3840x2160-12251.jpg);
+  background-image: url("../assets/mountain-peak-above-3840x2160-12251.jpg");
   background-position: center center;
   object-fit: contain;
   border-bottom-left-radius: 80px;
