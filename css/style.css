@@ -1169,7 +1169,20 @@ h1.john {
     width: 100%;
     margin-bottom: 20px;
   }
+  .ranking-container{
+    display: flex;
+    flex-direction: column;
+  }
+  form{
+    display: flex;
+    gap: 10px;
+  }
 
+
+  .ranking-image{
+    width: 100%;
+    padding: 50px 10px;
+  }
   /* Adjust title section for smaller screens */
   .partition {
     flex-direction: column;
@@ -1246,14 +1259,16 @@ h1.john {
   }
 
   .form-1 {
-    width: 100%;
+    width: 45%;
     margin-bottom: 20px;
   }
 
   .two-location {
     flex-direction: column;
   }
-
+.subject{
+  margin-left: 260px;
+}
   .us,
   .we {
     width: 100%;
@@ -1277,7 +1292,16 @@ h1.john {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
   }
-
+  .subject{
+    margin-left: 130px;
+    margin-bottom: 20px;
+  }
+  .form .input{
+    display: flex;
+  }
+.input{
+  display: flex;
+}
   .intro {
     transform: translateX(-5%) translateY(30%);
   }
