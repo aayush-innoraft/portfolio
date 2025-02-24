@@ -722,9 +722,11 @@ h2 {
 .three-price {
   width: 100%;
   display: flex;
-  padding: 50px;
+  padding: 18px;
   justify-content: space-between;
   align-items: center;
+  gap: 20px
+  ;
 }
 
 /* price one  */
@@ -1136,7 +1138,12 @@ h1.john {
   .container {
     max-width: 540px;
   }
-
+.title-upper-content i{
+  font-size: 30px;
+  margin-left: 10px;
+  gap: 10px
+;
+}
   /* Adjust header height for smaller screens */
   header {
     height: 400px;
@@ -1169,17 +1176,16 @@ h1.john {
     width: 100%;
     margin-bottom: 20px;
   }
-  .ranking-container{
+  .ranking-container {
     display: flex;
     flex-direction: column;
   }
-  form{
+  form {
     display: flex;
     gap: 10px;
   }
 
-
-  .ranking-image{
+  .ranking-image {
     width: 100%;
     padding: 50px 10px;
   }
@@ -1255,7 +1261,8 @@ h1.john {
 
   /* Adjust contact section for smaller screens */
   .input {
-    flex-direction: column;
+    width: 50%;
+    font-size: 10px;
   }
 
   .form-1 {
@@ -1266,9 +1273,9 @@ h1.john {
   .two-location {
     flex-direction: column;
   }
-.subject{
-  margin-left: 260px;
-}
+  .subject {
+    margin-left: 260px;
+  }
   .us,
   .we {
     width: 100%;
@@ -1292,16 +1299,12 @@ h1.john {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
   }
-  .subject{
+  .subject {
     margin-left: 130px;
     margin-bottom: 20px;
   }
-  .form .input{
-    display: flex;
-  }
-.input{
-  display: flex;
-}
+ 
+ 
   .intro {
     transform: translateX(-5%) translateY(30%);
   }
@@ -1361,17 +1364,12 @@ h1.john {
     display: flex;
     align-items: center; /* Center items vertically */
     gap: 10px; /* Add spacing between items */
-    padding: 10px; /* Add padding for better spacing */
-    background-color: rgba(
-      240,
-      248,
-      255,
-      0.253
-    ); /* Keep the background color */
+    padding: 10px; 
+    background-color: rgba(240,248,255, 0.253); 
 
-    top: 0; /* Position at the top of the screen */
-    left: 0; /* Position at the start of the screen */
-    z-index: 1000; /* Ensure it stays above other content */
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
   }
 
   .links img {
@@ -1582,13 +1580,9 @@ h1.john {
   }
 
   .form-1 {
-    font-size: 16px;
+    font-size: 10px;
   }
 
-  .full-name,
-  .subject {
-    font-size: 14px;
-  }
 
   .button {
     height: 80px;
