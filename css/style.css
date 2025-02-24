@@ -2,14 +2,17 @@
   margin: 0;
   padding: 0;
 }
+/* font family for bold letters  */
 @font-face {
   font-family: "oxygen-bold";
   src: url("/Oxygen/Oxygen-Bold.ttf");
 }
+/* font family for regular letters  */
 @font-face {
   font-family: "oxygen-regular";
   src: url("/Oxygen/Oxygen-Regular.ttf");
 }
+/* font family for lite letters  */
 @font-face {
   font-family: "oxygen-lite";
   src: url("/Oxygen/Oxygen-Light.ttf");
@@ -861,39 +864,45 @@ h1.john {
   align-items: center;
   justify-content: center;
 }
-
+/* blogs page  */
 .blogs {
   width: 100%;
   background-color: rgba(41, 42, 57, 255);
   color: white;
 }
+/* blogs container  */
 .blog-container {
   display: flex;
   flex-direction: column;
   padding: 20px;
   gap: 20px;
 }
+/* p in blogs container  */
 .blog-container p {
   font-family: "oxygen-regular";
 }
-
+/* h1 in blog container  */
 .blog-container h1 {
   font-family: "oxygen-bold";
 }
+/* news  */
 .news {
   display: flex;
   justify-content: center;
 }
+/* my blog div  */
 .my-blog {
   display: flex;
   justify-content: center;
 }
+/* the main box  */
 .three-blogs {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
 }
+/* blog 1  */
 .blog-1 {
   display: flex;
   flex-direction: column;
@@ -901,79 +910,96 @@ h1.john {
   gap: 10px;
   flex-wrap: wrap;
 }
+/* image in blog 1  */
 .blog-1 img {
   border-radius: 20px 20px 20px 20px;
   object-fit: contain;
   width: 100%;
 }
+/* straight  */
 .straight {
   display: flex;
 }
-
+/* p tag in blog 1  */
 .web-d {
   padding-right: 10px;
 }
+/* the three dots  */
 .new-class {
   margin-top: 30px;
 }
+/* contact page  */
 .contact-pg {
   width: 100%;
 }
-
+/* inputs  */
 .input {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+/* contact conatier  */
 .contact-container {
   padding: 20px;
   display: flex;
 }
+/* p tag in contact container  */
 .contact-container p {
   font-family: "oxygen-regular";
 }
+/* h1 in contact conatinner  */
 .contact-container h1 {
   font-family: "oxygen-bold";
 }
+/* form  */
 .form {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+/* form 1  */
 .form-1 {
   font-size: 30px;
   width: 45%;
 }
+/* input tag  */
 .write {
   width: 100%;
   font-size: 50px;
 }
+/* subjet in input tag  */
 .subject {
   margin-right: 30%;
   font-size: 20px;
 }
+/* p in input  */
 .full-name {
   font-size: 20px;
 }
+/* p tag in contact us  */
 .shy {
   font-size: 30px;
 }
+/* h1 in contact ius page  */
 .hear {
   font-size: 50px;
   padding-top: 20px;
 }
+/* h1 in contact pg   */
 .please {
   font-size: 50px;
   padding-bottom: 20px;
 }
+/* h1 in contact pg  */
 .me {
   color: red;
 }
+/* p in contact pg  */
 .ok {
   font-size: 20px;
 }
-
+/* button  */
 .button {
   height: 100px;
   aspect-ratio: 2/1;
@@ -983,17 +1009,20 @@ h1.john {
   align-items: center;
   margin-top: 30px;
 }
+/* two locations  */
 .two-location {
   display: flex;
   width: 100%;
   gap: 50px;
 }
+/* p in button  */
 .button p {
   font-size: 20px;
   z-index: 2;
   color: red;
   cursor: pointer;
 }
+/* button div  */
 .button div {
   position: absolute;
   background-color: rgba(41, 42, 57, 255);
@@ -1004,61 +1033,71 @@ h1.john {
   border-radius: 50px;
   cursor: pointer;
 }
-
+/* hover effect  */
 .button:hover div {
   width: 100%;
   transition: 0.5s ease-in-out;
 }
+/* sepration div  */
 .us {
   width: 50%;
 }
+/* sepration div  */
 .we {
   width: 50%;
 }
-
+/* small boxes  */
 .location-logo i {
   font-size: 50px;
   gap: 20px;
   display: flex;
 }
-
+/* location logo  */
 .location-logo {
   display: flex;
   gap: 20px;
   align-items: center;
 }
+/* location div  */
 .location {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+/* contact  */
 .content-logo {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+/* four straight div  */
 .four-straight {
   display: flex;
   gap: 50px;
 }
+/* h1  */
 .four-straight i {
   font-size: 50px;
   border-radius: 50%;
   object-fit: contain;
 }
+/* p  */
 .content-logo p {
   color: grey;
 }
+/* last container  */
 .last-container {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
+/* p in last container  */
 .last-container p {
   font-size: 20px;
   font-family: "oxygen-bold";
   color: white;
 }
+/* last footer  */
 .footer-ends {
   background-color: rgba(41, 42, 57, 255);
 }
