@@ -1368,7 +1368,7 @@ h1.john {
   }
   /* Adjust intro section for smaller screens */
   .intro {
-    transform: translateX(-10%) translateY(50%);
+    transform: translateX(-10px) translateY(-50%);
   }
 
   .intro img {
@@ -1529,6 +1529,7 @@ h1.john {
     box-sizing: border-box;
   }
 
+
   .links {
     display: none !important;
   }
@@ -1565,7 +1566,7 @@ h1.john {
   font-size: 20px;
 }
   .intro {
-    transform: translateX(-5%) translateY(30%);
+    transform: translateX(-5%) translateY(53%);
   }
   .contact-container {
     padding: 20px 0px;
@@ -1584,7 +1585,7 @@ h1.john {
   }
 
   .mouse-container {
-    margin-top: 5%;
+    margin-top: 18%;
   }
 
   .mouse {
