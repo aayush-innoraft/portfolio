@@ -246,7 +246,6 @@ header {
   width: 100%;
   border-radius: 15px 15px 15px 15px;
   height: 90%;
-
 }
 /* right content  */
 .partition-content {
@@ -978,8 +977,7 @@ h1.john {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
-  gap: 50px
-  ;
+  gap: 50px;
 }
 /* blog 1  */
 .blog-1 {
@@ -1351,23 +1349,23 @@ h1.john {
   .subject {
     margin-left: 0;
   }
-  
+
   .form-1 {
     width: 45%;
     margin-bottom: 20px;
   }
-  
+
   .two-location {
     flex-direction: column;
   }
-  
+
   .us,
   .we {
     width: 100%;
   }
-.ham{
-  display: flex;
-}  
+  .ham {
+    display: flex;
+  }
   /* Adjust intro section for smaller screens */
   .intro {
     transform: translateX(-10%) translateY(50%);
@@ -1436,8 +1434,8 @@ h1.john {
 
   /* Adjust why-us section for smaller screens */
   .us-boxes {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .us-box {
@@ -1510,13 +1508,10 @@ h1.john {
   .blog-3 {
     margin-left: 50%;
   }
-  .last-container p{
+  .last-container p {
     font-size: 15px;
   }
 }
-
-
-
 
 /* Existing CSS code remains unchanged */
 
@@ -1524,9 +1519,8 @@ h1.john {
 @media (max-width: 576px) {
   .container {
     max-width: 324px;
-    padding: 0 10px;
     margin: 0 auto;
-    box-sizing: border-box; /* Ensure padding is included in the width */
+    box-sizing: border-box; 
   }
   body {
     max-width: 100%;
@@ -1552,10 +1546,24 @@ h1.john {
   }
 
   .subject {
-    margin-left: 130px;
+    margin-left: 41px;
     margin-bottom: 20px;
+    font-size: 12px;
   }
-
+  .full-name{
+    font-size: 12px;
+  }
+  .phone-no{
+    margin-left: 35px;
+  
+    font-size: 10px;
+  }
+.Email{
+  font-size: 10px;
+}
+.ok{
+  font-size: 20px;
+}
   .intro {
     transform: translateX(-5%) translateY(30%);
   }
@@ -1692,7 +1700,7 @@ h1.john {
     font-size: 12px;
   }
   .ham {
-    margin-left: 90%;
+    margin-left: 70%;
     margin-top: 30px;
   }
   .title-boxes {
@@ -1779,7 +1787,13 @@ h1.john {
   .pricing h2 {
     font-size: 24px;
   }
-
+.three-price{
+  display: flex;
+  flex-direction: column;
+}
+.price-three{
+  margin-left: 0;
+}
   .price-one h1 {
     font-size: 24px;
     align-self: center;
@@ -1789,7 +1803,12 @@ h1.john {
     font-size: 20px;
     align-self: center;
   }
-
+p.news{
+  padding: 50px;
+}
+.three-dots{
+  padding: 30px 0px;
+}
   .price-one ul {
     font-size: 14px;
     padding: 0px 20px;
