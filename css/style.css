@@ -38,10 +38,8 @@
 /* links  */
 .links {
   display: flex;
-align-items: center;
-justify-content: center;
-
-
+  align-items: center;
+  justify-content: center;
 }
 
 /* img in links  */
@@ -52,13 +50,11 @@ justify-content: center;
   border-right: 2px solid rgba(128, 128, 128, 0.459);
   background-color: white;
   box-sizing: content-box;
-  
 }
 
 /* hover effect   */
- .links img:hover {
+.links img:hover {
   background-color: rgba(128, 128, 128, 0.459);
-
 }
 /* header  */
 header {
@@ -109,8 +105,8 @@ header {
   display: flex;
   justify-content: center;
   font-size: 20px;
-color: rgba(128, 128, 128, 0.541);
-text-transform: capitalize;
+  color: rgba(128, 128, 128, 0.541);
+  text-transform: capitalize;
 }
 
 /* mouse-container  */
@@ -223,13 +219,13 @@ text-transform: capitalize;
 .title-container {
   display: flex;
   flex-direction: column;
-padding: 60px 0px;
+  padding: 60px 0px;
 }
-.-width{
-width: 82%;
-padding: 20px 0px;
+.-width {
+  width: 82%;
+  padding: 20px 0px;
 }
-.integrate{
+.integrate {
   display: flex;
   flex-direction: column;
 }
@@ -250,7 +246,7 @@ padding: 20px 0px;
   width: 100%;
   border-radius: 15px 15px 15px 15px;
   height: 90%;
-  padding-top: 50px;
+
 }
 /* right content  */
 .partition-content {
@@ -274,7 +270,6 @@ padding: 20px 0px;
 }
 /* h1 in content  */
 .little-me h1 {
-
   font-family: "oxygen-bold";
   color: white;
   font-size: 40px;
@@ -283,8 +278,7 @@ padding: 20px 0px;
 .little-buttons {
   display: flex;
   width: 100%;
-gap: 50px
-;
+  gap: 50px;
 }
 /* buttons  */
 .CV {
@@ -335,12 +329,10 @@ gap: 50px
   justify-content: space-around;
   padding: 41px 6px;
   gap: 5px;
- 
 }
 
 /* small boxes  */
 .title-box {
-  
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -364,8 +356,6 @@ gap: 50px
   gap: 20px;
   align-items: center;
   color: white;
-
-
 }
 
 /* content  */
@@ -375,7 +365,6 @@ gap: 50px
 }
 .title-upper-content i {
   font-size: 40px;
- 
 }
 /* image  */
 .title-upper-content img {
@@ -398,34 +387,28 @@ gap: 50px
   align-items: center;
   width: fit-content;
   width: 50%;
-margin-left: 10px;
+  margin-left: 10px;
   margin-top: 10px;
   position: relative;
-  
-
 }
 /* arrow  img */
 .arrow img {
   width: 50px;
   height: 38px;
   z-index: 1;
-
 }
-.arrow-circle{
-width: 38px;
-height: 38px;
-border-radius: 50%;
-border: 1px solid black;
-background-color: red;
-left: 0;
-top: 0;
-z-index: 0;
-position: absolute;
-transform: translateX(-12px);
+.arrow-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: red;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  position: absolute;
+  transform: translateX(-12px);
 }
-
-
-
 
 /* container  */
 .why-us-container {
@@ -433,25 +416,21 @@ transform: translateX(-12px);
   flex-direction: column;
   padding: 50px 0px;
 }
-p.why-us{
+p.why-us {
   padding-top: 20px;
   font-size: 30px;
 }
 
- 
-
-.four-logos{
+.four-logos {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   justify-self: center;
   padding: 20px 0px;
-
-
 }
-.four-logos img{
-width: 20%;
+.four-logos img {
+  width: 20%;
 }
 
 /* content in p  */
@@ -463,9 +442,8 @@ width: 20%;
   padding-top: 20px;
   color: rgba(128, 128, 128, 0.664);
   margin-left: 20px;
-
 }
-.links img.book{
+.links img.book {
   border-right: 0;
 }
 
@@ -477,12 +455,12 @@ width: 20%;
   margin-left: 20px;
   font-size: 60px;
 }
-h1.work{
+h1.work {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.margin-left{
+.margin-left {
   margin-left: 20px;
 }
 /* boxes  */
@@ -499,7 +477,7 @@ h1.work{
   width: 20%;
   border: 2px solid grey;
   border-radius: 10px 10px 10px 10px;
-  padding:20px;
+  padding: 20px;
 }
 /* hover effect in box  */
 .us-box:hover {
@@ -519,13 +497,11 @@ h1.work{
 
 /* img  */
 img.pc {
- 
   margin-left: 10%;
 }
 
 /* img  */
 .mobile {
-  
   margin-left: 10%;
   height: 50px;
 }
@@ -562,7 +538,7 @@ img.pc {
   padding-bottom: 20px;
   color: white;
 }
-.working-container{
+.working-container {
   padding: 50px 0px;
 }
 /* img  */
@@ -641,7 +617,6 @@ img.arrowws {
   width: 45%;
   display: flex;
   flex-direction: column;
-
 }
 
 /* container  */
@@ -826,8 +801,7 @@ h2 {
   padding: 18px;
   justify-content: space-between;
   align-items: center;
-  gap: 20px
-  ;
+  gap: 20px;
 }
 
 /* price one  */
@@ -1004,6 +978,8 @@ h1.john {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
+  gap: 50px
+  ;
 }
 /* blog 1  */
 .blog-1 {
@@ -1022,7 +998,10 @@ h1.john {
 /* straight  */
 .straight {
   display: flex;
+  /* align-items: center;
+    justify-content: center; */
 }
+
 /* p tag in blog 1  */
 .web-d {
   padding-right: 10px;
@@ -1049,7 +1028,7 @@ h1.john {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 20px ;
+  padding: 60px 20px;
 }
 
 /* p tag in contact container  */
@@ -1075,7 +1054,7 @@ h1.john {
 /* input tag  */
 .write {
   width: 100%;
-  font-size: 50px;
+  font-size: 46px;
   height: 100px;
 }
 /* subjet in input tag  */
@@ -1111,12 +1090,10 @@ h1.john {
   font-size: 20px;
   font-family: "oxygen-regular";
   padding-bottom: 10px;
-
 }
-.mm{
+.mm {
   margin-top: 30px;
 }
-
 
 /* button  */
 .button {
@@ -1177,25 +1154,23 @@ h1.john {
   object-fit: cover;
   align-items: center;
   justify-content: center;
-
 }
-.grey-color{
+.grey-color {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   background-color: rgba(128, 128, 128, 0.267);
   align-self: center;
-justify-content: center;
+  justify-content: center;
   display: flex;
-
 }
-.phone-no{
+.phone-no {
   margin-right: 130px;
   margin-top: 30px;
   font-size: 20px;
   font-family: "oxygen-regular";
 }
-.Email{
+.Email {
   margin-top: 30px;
   font-size: 20px;
   font-family: "oxygen-regular";
@@ -1231,8 +1206,6 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 /* p  */
@@ -1266,8 +1239,13 @@ justify-content: center;
   padding: 20px;
   cursor: pointer;
   margin-left: 100%;
-  
 }
+.blog-1 {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+/* Adjust contact section for smaller screens */
 
 .ham span {
   width: 50px;
@@ -1276,7 +1254,6 @@ justify-content: center;
   border-radius: 50px;
   transition: transform 0.3s ease, opacity 0.3s ease;
   border: 2px solid white;
-
 }
 
 .ham-menu {
@@ -1292,15 +1269,12 @@ justify-content: center;
   align-items: center;
   justify-content: center;
   position: fixed;
-
-
 }
 
 .ham-menu a {
   text-decoration: none;
   font-size: 30px;
   color: white;
-
 }
 
 /* Classes for toggling the menu */
@@ -1310,7 +1284,6 @@ justify-content: center;
 
 .x1 {
   transform: translateY(15px) rotate(45deg);
-
 }
 
 .x2 {
@@ -1319,7 +1292,6 @@ justify-content: center;
 
 .x3 {
   transform: translateY(-21px) rotate(-45deg);
-  
 }
 /* Existing CSS code remains unchanged */
 
@@ -1328,7 +1300,7 @@ justify-content: center;
   .container {
     max-width: 1140px;
   }
-  .links{
+  .links {
     width: 75%;
   }
 }
@@ -1337,7 +1309,7 @@ justify-content: center;
   .container {
     max-width: 960px;
   }
-  .links{
+  .links {
     width: 75%;
   }
 }
@@ -1352,23 +1324,50 @@ justify-content: center;
   .container {
     max-width: 540px;
   }
- .links{
-  display: none;
- }
-.title-upper-content i{
-  font-size: 30px;
-  margin-left: 10px;
-  gap: 10px
-;
-}
-.mouse-container{
-  margin-top: 180px;
-}
+  .links {
+    display: none;
+  }
+  .title-upper-content i {
+    font-size: 30px;
+    margin-left: 10px;
+    gap: 10px;
+  }
+  .write {
+    font-size: 42px;
+  }
+  .mouse-container {
+    margin-top: 180px;
+  }
+  .phone-no {
+    margin-right: 98px;
+  }
   /* Adjust header height for smaller screens */
   header {
     height: 400px;
   }
-
+  .input {
+    font-size: 20px;
+  }
+  .subject {
+    margin-left: 0;
+  }
+  
+  .form-1 {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .two-location {
+    flex-direction: column;
+  }
+  
+  .us,
+  .we {
+    width: 100%;
+  }
+.ham{
+  display: flex;
+}  
   /* Adjust intro section for smaller screens */
   .intro {
     transform: translateX(-10%) translateY(50%);
@@ -1400,11 +1399,23 @@ justify-content: center;
     display: flex;
     flex-direction: column;
   }
+  .title-boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
   form {
     display: flex;
     gap: 10px;
   }
+  h1.our-price {
+    font-size: 30px;
+    padding: 20px;
+  }
 
+  .x3 {
+    transform: translateY(-14px) rotate(-45deg);
+  }
   .ranking-image {
     width: 100%;
     padding: 50px 10px;
@@ -1436,8 +1447,9 @@ justify-content: center;
 
   /* Adjust working project section for smaller screens */
   .upper-project {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 29px;
   }
 
   .dice,
@@ -1448,8 +1460,21 @@ justify-content: center;
 
   /* Adjust pricing section for smaller screens */
   .three-price {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .three-price h1 {
+    font-size: 50px;
+  }
+  .price-three {
+    margin-left: 50%;
+  }
+  .three-price h2 {
+    font-size: 20px;
+  }
+  .three-price ul,
+  li {
+    font-size: medium;
   }
 
   .price-one {
@@ -1470,39 +1495,27 @@ justify-content: center;
 
   /* Adjust blogs section for smaller screens */
   .three-blogs {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
   }
-
-  .blog-1 {
-    width: 80%;
-    margin-bottom: 20px;
+  .three-blogs P {
+    font-size: 10px;
   }
-
-  /* Adjust contact section for smaller screens */
-  .input {
-    font-size: 20px;
-  }
-  .subject{
-    margin-left: 0;
-  }
-
-  .form-1 {
-    width: 45%;
-    margin-bottom: 20px;
-  }
-
-  .two-location {
-    flex-direction: column;
-  }
-
-  .us,
-  .we {
-    width: 100%;
-  }
-  .ham{
+  .straight {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  .blog-3 {
+    margin-left: 50%;
+  }
+  .last-container p{
+    font-size: 15px;
+  }
+}
+
+
 
 
 /* Existing CSS code remains unchanged */
@@ -1512,20 +1525,20 @@ justify-content: center;
   .container {
     max-width: 324px;
     padding: 0 10px;
-     margin: 0 auto;
+    margin: 0 auto;
     box-sizing: border-box; /* Ensure padding is included in the width */
   }
-
-  body ,html{
-    /* overflow-x: hidden; Prevent horizontal scrolling */
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
+  body {
+    max-width: 100%;
+  }
+  * {
+    box-sizing: border-box;
   }
 
   .links {
     display: none !important;
   }
-  .ham{
+  .ham {
     display: flex;
   }
 
@@ -1546,7 +1559,9 @@ justify-content: center;
   .intro {
     transform: translateX(-5%) translateY(30%);
   }
-
+  .contact-container {
+    padding: 20px 0px;
+  }
   .intro img {
     width: 120px;
     border: 5px solid white;
@@ -1594,7 +1609,7 @@ justify-content: center;
   .about-boxes h1 {
     font-size: 18px;
   }
-  .upper-project{
+  .upper-project {
     padding: 0;
   }
 
@@ -1666,6 +1681,7 @@ justify-content: center;
   .title-box {
     width: 100%;
     margin-bottom: 10px;
+    padding: 21px 9px;
   }
 
   .title-box h1 {
@@ -1674,6 +1690,15 @@ justify-content: center;
 
   .title-box p {
     font-size: 12px;
+  }
+  .ham {
+    margin-left: 90%;
+    margin-top: 30px;
+  }
+  .title-boxes {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
   }
 
   /* Adjust why-us section for very small screens */
@@ -1755,13 +1780,9 @@ justify-content: center;
     font-size: 24px;
   }
 
-  
-  
-
   .price-one h1 {
     font-size: 24px;
     align-self: center;
-
   }
 
   .price-one h2 {
@@ -1769,28 +1790,27 @@ justify-content: center;
     align-self: center;
   }
 
-  .price-one ul
-  {
+  .price-one ul {
     font-size: 14px;
     padding: 0px 20px;
   }
 
   /* Adjust clients section for very small screens */
- 
+
   .we-clients {
     font-size: 20px;
     padding: 0;
   }
-.who-client{
-  margin-top: 50px;
-}
+  .who-client {
+    margin-top: 50px;
+  }
   .client-img img {
     width: 60px;
   }
-.clients-container{
-  padding: 0;
-  margin: 0;
-}
+  .clients-container {
+    padding: 0;
+    margin: 0;
+  }
   .clients-container h1 {
     font-size: 24px;
   }
@@ -1800,7 +1820,7 @@ justify-content: center;
     gap: 10px;
     align-items: center;
     justify-content: center;
-}
+  }
   .clients-container p {
     font-size: 14px;
   }
