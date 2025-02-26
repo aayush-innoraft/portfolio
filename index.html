@@ -20,17 +20,17 @@
       crossorigin="anonymous"
     ></script>
     <script>
-     $(document).ready(function () {
-  $(".ham").click(function () {
-    // Toggle classes for the hamburger icon
-    $(".ham-1").toggleClass("x1");
-    $(".ham-2").toggleClass("x2");
-    $(".ham-3").toggleClass("x3");
+      $(document).ready(function () {
+        $(".ham").click(function () {
+          // Toggle classes for the hamburger icon
+          $(".ham-1").toggleClass("x1");
+          $(".ham-2").toggleClass("x2");
+          $(".ham-3").toggleClass("x3");
 
-    // Toggle the visibility of the menu
-    $(".ham-menu").toggleClass("active");
-  });
-});
+          // Toggle the visibility of the menu
+          $(".ham-menu").toggleClass("active");
+        });
+      });
     </script>
     <!-- header tag  -->
     <header>
@@ -48,7 +48,7 @@
           <img class="book" src="./svgs/book.svg" alt="book" />
         </div>
         <div class="ham">
-          <span class="ham-1 "> </span>
+          <span class="ham-1"> </span>
           <span class="ham-2"> </span>
           <span class="ham-3"> </span>
         </div>
@@ -57,7 +57,6 @@
           <a href=""> services</a>
           <a href=""> blog</a>
           <a href=""> about</a>
-       
         </div>
         <!-- image inside container  -->
         <div class="intro">
@@ -131,12 +130,14 @@
           </div>
           <div class="partition-content">
             <div class="little-me">
-              <p>little about me</p>
-              <h1>I integrate strategy,</h1>
-              <h1>creativity & experience to</h1>
-              <h1>solve problems</h1>
+              <div class="integrate">
+                <p>LITTLE ABOUT ME</p>
+                <h1>I integrate strategy,</h1>
+                <h1>creativity & experience to</h1>
+                <h1>solve problems</h1>
+              </div>
               <!-- content  -->
-              <p>
+              <p class="-width">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
                 facilis quia est voluptas rerum quo, iure quam possimus
                 blanditiis at distinctio veritatis quisquam illo omnis ipsa quos
@@ -146,7 +147,7 @@
               <div class="little-buttons">
                 <!-- buttons  -->
                 <button class="CV">Download Cv</button>
-                <button class="Lets-talk">Lets talk</button>
+                <button class="Lets-talk">Let's talk</button>
               </div>
               <div class="number">
                 <div class="number-content">
@@ -172,7 +173,7 @@
               <i class="fa-solid fa-football" style="color: #b197fc"></i>
               <h1>envato market</h1>
             </section>
-            <p>please check my portfolio</p>
+            <p class="align">please check my portfolio</p>
             <section class="arrow">
               <div class="arrow-circle"></div>
               <img src="./svgs/white-left-arrow.svg" alt="arrow" />
@@ -224,7 +225,7 @@
       <!-- container  -->
       <div class="container why-us-container">
         <p class="why-us">why choose us</p>
-        <h1>our work service</h1>
+        <h1 class="work">our work service</h1>
         <!-- main box -->
         <div class="us-boxes">
           <!-- small boxes  -->
@@ -236,7 +237,7 @@
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
               omnis dolor possimus molestias ipsa veritatis laudantium vitae
-              doloremque. Consequatur, recusandae!
+              doloremque. Consequatur
             </p>
             <!-- p  -->
             <section class="arrow margin-left">
@@ -252,7 +253,7 @@
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
               omnis dolor possimus molestias ipsa veritatis laudantium vitae
-              doloremque. Consequatur, recusandae!
+              doloremque. Consequatur
             </p>
             <section class="arrow margin-left">
               <div class="arrow-circle"></div>
@@ -267,7 +268,7 @@
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
               omnis dolor possimus molestias ipsa veritatis laudantium vitae
-              doloremque. Consequatur, recusandae!
+              doloremque. Consequatur
             </p>
             <section class="arrow margin-left">
               <div class="arrow-circle"></div>
@@ -283,7 +284,7 @@
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
               omnis dolor possimus molestias ipsa veritatis laudantium vitae
-              doloremque. Consequatur, recusandae!
+              doloremque. Consequatur,
             </p>
             <section class="arrow margin-left">
               <div class="arrow-circle"></div>
@@ -292,12 +293,18 @@
             </section>
           </div>
         </div>
+        <div class="four-logos">
+          <img src="./assets/logo-removebg-preview.png" alt="" />
+          <img src="./assets/logo-removebg-preview.png" alt="" />
+          <img src="./assets/logo-removebg-preview.png" alt="" />
+          <img src="./assets/logo-removebg-preview.png" alt="" />
+        </div>
       </div>
     </div>
     <!-- working project section  -->
     <div class="working-project">
       <!-- container  -->
-      <div class="container">
+      <div class="container working-container">
         <!-- content  -->
         <div class="working-content">
           <!-- p  -->
@@ -388,8 +395,7 @@
             <!-- story  -->
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat
             corporis necessitatibus, ullam optio ipsum ipsam maiores id nulla
-            placeat modi officiis, nostrum facere tenetur sed doloremque!
-            Fugiat, magnam amet!
+            placeat modi officiis, nostrum facere tenetur sed doloremque! Fugiat
           </p>
           <!-- start  -->
           <div class="start">
@@ -669,18 +675,19 @@
               </div>
               <div class="input">
                 <!-- input for form  -->
-                <p class="full-name">FULL NAME :</p>
-                <p class="subject">SUBJECT :</p>
+                <p class="Email">Your Email:</p>
+                <p class="phone-no">Phone Number:</p>
               </div>
               <div class="form">
                 <!-- input for form  -->
                 <input type="text" class="form-1" placeholder="Your Name" />
                 <input type="text" class="form-1" placeholder="Your Subject" />
               </div>
-              <div class="mm">
-                <p class="ok">Message</p>
-              </div>
+            
               <div class="message">
+                <div class="mm">
+                  <p class="ok">Message:</p>
+                </div>
                 <!-- input for form  -->
                 <input
                   type="text"
@@ -698,10 +705,12 @@
               <div class="location">
                 <div class="location-logo">
                   <!-- location  -->
-                  <i
-                    class="fa-solid fa-location-crosshairs"
-                    style="color: #b197fc"
-                  ></i>
+                  <div class="grey-color">
+                    <i
+                      class="fa-solid fa-location-crosshairs"
+                      style="color: #b197fc"
+                    ></i>
+                  </div>
                   <div class="content-logo">
                     <!-- h1  -->
                     <h1>location</h1>
@@ -711,10 +720,12 @@
                 </div>
                 <div class="location-logo">
                   <!-- phone  -->
-                  <i
-                    class="fa-solid fa-phone-volume"
-                    style="color: #b197fc"
-                  ></i>
+                  <div class="grey-color">
+                    <i
+                      class="fa-solid fa-phone-volume"
+                      style="color: #b197fc"
+                    ></i>
+                  </div>
                   <div class="content-logo">
                     <h1>Phone Number</h1>
                     <p>+012456789</p>
@@ -722,7 +733,9 @@
                 </div>
 
                 <div class="location-logo">
-                  <i class="fa-solid fa-envelope" style="color: #b197fc"></i>
+                  <div class="grey-color">
+                    <i class="fa-solid fa-envelope" style="color: #b197fc"></i>
+                  </div>
                   <div class="content-logo">
                     <!-- email  -->
                     <h1>Email</h1>
@@ -731,10 +744,18 @@
                 </div>
                 <!-- the four images  -->
                 <div class="four-straight">
-                  <i class="fa-brands fa-facebook-f"></i>
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-youtube"></i>
+                  <div class="grey-color">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="grey-color">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="grey-color">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div class="grey-color">
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
                 </div>
               </div>
             </div>
