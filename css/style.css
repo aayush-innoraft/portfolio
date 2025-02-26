@@ -297,15 +297,15 @@ text-transform: capitalize;
 /* before effect  */
 .Lets-talk::before {
   content: "";
-  width: 43px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: red;
   border-radius: 50%;
   border: 2px solid black;
   position: absolute;
   top: 50%;
   left: -30px;
-  transform: translateY(-48%) translateX(6px);
+  transform: translateY(-48%) translateX(10px);
   z-index: -1;
   cursor: pointer;
 }
@@ -327,7 +327,7 @@ text-transform: capitalize;
   gap: 10px;
   border-radius: 15px 15px 15px 15px;
   border: 2px solid grey;
-  padding: 20px;
+  padding: 25px;
   height: 100px;
 }
 /* p in box  */
@@ -363,11 +363,8 @@ text-transform: capitalize;
   border-radius: 50%;
 }
 
-/* arrow  */
-.arrow img {
-  width: 50px;
-  height: 38px;
-}
+
+
 .number {
   display: flex;
   justify-content: space-between;
@@ -380,10 +377,32 @@ text-transform: capitalize;
   display: flex;
   align-items: center;
   width: fit-content;
-  margin-left: 20%;
-  justify-content: center;
-  align-items: center;
+  width: 50%;
+  padding-bottom: 10px;
+  position: relative;
+
 }
+/* arrow  img */
+.arrow img {
+  width: 50px;
+  height: 38px;
+  z-index: 1;
+
+}
+.arrow-circle{
+width: 25px;
+height: 38px;
+border-radius: 50%;
+border: 1px solid black;
+background-color: red;
+left: 0;
+top: 0;
+z-index: 0;
+position: absolute;
+}
+
+
+
 
 /* container  */
 .why-us-container {
@@ -413,6 +432,9 @@ text-transform: capitalize;
   font-size: 60px;
 }
 
+.margin-left{
+  margin-left: 20px;
+}
 /* boxes  */
 .us-boxes {
   width: 100%;
