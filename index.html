@@ -14,6 +14,24 @@
     />
   </head>
   <body>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+     $(document).ready(function () {
+  $(".ham").click(function () {
+    // Toggle classes for the hamburger icon
+    $(".ham-1").toggleClass("x1");
+    $(".ham-2").toggleClass("x2");
+    $(".ham-3").toggleClass("x3");
+
+    // Toggle the visibility of the menu
+    $(".ham-menu").toggleClass("active");
+  });
+});
+    </script>
     <!-- header tag  -->
     <header>
       <!-- nav in header which works as a container  -->
@@ -29,9 +47,21 @@
           <img src="./svgs/pencil.svg" alt="pencil" />
           <img class="book" src="./svgs/book.svg" alt="book" />
         </div>
+        <div class="ham">
+          <span class="ham-1 "> </span>
+          <span class="ham-2"> </span>
+          <span class="ham-3"> </span>
+        </div>
+        <div class="ham-menu">
+          <a href=""> home</a>
+          <a href=""> services</a>
+          <a href=""> blog</a>
+          <a href=""> about</a>
+       
+        </div>
         <!-- image inside container  -->
         <div class="intro">
-          <img src="./assets/photo.jpeg" alt="image"/>
+          <img src="./assets/photo.jpeg" alt="image" />
 
           <h1>Hello, I'am mossie</h1>
           <p>I'am experianced glad to see you!!!</p>
@@ -143,7 +173,7 @@
               <h1>envato market</h1>
             </section>
             <p>please check my portfolio</p>
-            <section class="arrow ">
+            <section class="arrow">
               <div class="arrow-circle"></div>
               <img src="./svgs/white-left-arrow.svg" alt="arrow" />
               <!-- arrow image  -->
@@ -155,7 +185,7 @@
               <h1>dribble</h1>
             </section>
             <p>please check my portfolio</p>
-            <section class="arrow ">
+            <section class="arrow">
               <!-- arrow image  -->
               <div class="arrow-circle"></div>
               <img src="./svgs/white-left-arrow.svg" alt="arrow" />
@@ -163,11 +193,11 @@
           </div>
           <div class="title-box">
             <section class="title-upper-content">
-              <i class="fa-brands fa-behance " style="color: #74c0fc"></i>
+              <i class="fa-brands fa-behance" style="color: #74c0fc"></i>
               <h1>behance</h1>
             </section>
             <p>please check my portfolio</p>
-            <section class="arrow ">
+            <section class="arrow">
               <!-- arrow image  -->
               <div class="arrow-circle"></div>
               <img src="./svgs/white-left-arrow.svg" alt="arrow" />
@@ -181,7 +211,7 @@
             </section>
             <p>please check my portfolio</p>
             <!-- img  -->
-            <section class="arrow ">
+            <section class="arrow">
               <div class="arrow-circle"></div>
               <img src="./svgs/white-left-arrow.svg" alt="arrow" />
             </section>
@@ -224,7 +254,7 @@
               omnis dolor possimus molestias ipsa veritatis laudantium vitae
               doloremque. Consequatur, recusandae!
             </p>
-            <section class="arrow margin-left ">
+            <section class="arrow margin-left">
               <div class="arrow-circle"></div>
               <img src="./svgs/arrow.svg" alt="arrow" />
             </section>
@@ -284,7 +314,11 @@
             <div class="project">
               <p>view project</p>
               <!-- image lo -->
-              <img class="arrowws" src="./svgs/white-left-arrow.svg" alt="arrow" />
+              <img
+                class="arrowws"
+                src="./svgs/white-left-arrow.svg"
+                alt="arrow"
+              />
             </div>
             <!-- frist sections  -->
           </section>
@@ -296,7 +330,11 @@
             <div class="project">
               <p>view project</p>
               <!-- img  -->
-              <img class="arrowws" src="./svgs/white-left-arrow.svg" alt="image">
+              <img
+                class="arrowws"
+                src="./svgs/white-left-arrow.svg"
+                alt="image"
+              />
             </div>
             <!-- second section ends  -->
           </section>
@@ -309,7 +347,11 @@
             <h1>NFT Artist</h1>
             <div class="project">
               <p>view project</p>
-              <img class="arrowws" src="./svgs/white-left-arrow.svg" alt="arrow" />
+              <img
+                class="arrowws"
+                src="./svgs/white-left-arrow.svg"
+                alt="arrow"
+              />
             </div>
             <!-- third section ends  -->
           </section>
@@ -321,7 +363,11 @@
             <div class="project">
               <p>view project</p>
               <!-- img  -->
-              <img class="arrowws" src="./svgs/white-left-arrow.svg" alt="arrow" />
+              <img
+                class="arrowws"
+                src="./svgs/white-left-arrow.svg"
+                alt="arrow"
+              />
             </div>
             <!-- fourth section ends  -->
           </section>
@@ -378,7 +424,7 @@
         </div>
         <!-- img  -->
         <div class="ranking-image">
-          <img src="./assets/hhhh.jpg" alt="image"/>
+          <img src="./assets/hhhh.jpg" alt="image" />
         </div>
       </div>
     </div>
@@ -411,9 +457,9 @@
               <li class="cross-line">live chat reply</li>
               <!-- li  -->
             </ul>
-            <section class="arrow ">
+            <section class="arrow">
               <div class="arrow-circle"></div>
-              <img src="./svgs/white-left-arrow.svg" alt="image"/>
+              <img src="./svgs/white-left-arrow.svg" alt="image" />
               <!-- img  -->
             </section>
           </div>
@@ -440,7 +486,7 @@
             </ul>
             <section class="arrow">
               <div class="arrow-circle"></div>
-              <img src="./svgs/white-left-arrow.svg" alt="image"/>
+              <img src="./svgs/white-left-arrow.svg" alt="image" />
               <!-- img  -->
             </section>
           </div>
@@ -465,9 +511,9 @@
               <!-- li  -->
               <li>live chat reply</li>
             </ul>
-            <section class="arrow ">
+            <section class="arrow">
               <div class="arrow-circle"></div>
-              <img src="./svgs/white-left-arrow.svg" alt="image"/>
+              <img src="./svgs/white-left-arrow.svg" alt="image" />
               <!-- img  -->
             </section>
           </div>
@@ -488,7 +534,7 @@
           <div class="client-1">
             <div class="client-img">
               <!-- img  -->
-              <img src="./assets/client-1.jpeg" alt="image"/>
+              <img src="./assets/client-1.jpeg" alt="image" />
               <div class="colum">
                 <!-- h1  -->
                 <h1 class="john">john carter</h1>
@@ -511,7 +557,7 @@
             <!-- client box 2  -->
             <div class="client-img">
               <!-- img  -->
-              <img src="./assets/client-2.jpeg" alt="image"/>
+              <img src="./assets/client-2.jpeg" alt="image" />
               <div class="colum">
                 <!-- h1  -->
                 <h1 class="john">david smith</h1>
@@ -553,7 +599,7 @@
           <!-- the big box  -->
           <div class="blog-1">
             <!-- blog 1  -->
-            <img src="./assets/sf-3.jpeg" alt="image"/>
+            <img src="./assets/sf-3.jpeg" alt="image" />
             <div class="straight">
               <p class="web-d">webdevlopment</p>
               | 23 may,2023
@@ -565,7 +611,7 @@
           </div>
           <div class="blog-1">
             <!-- blog 2  -->
-            <img src="./assets/sf-3.jpeg" alt="image"/>
+            <img src="./assets/sf-3.jpeg" alt="image" />
             <div class="straight">
               <p class="web-d">webdevlopment</p>
               | 23 may,2023
@@ -577,7 +623,7 @@
           </div>
           <div class="blog-1">
             <!-- blog 3  -->
-            <img src="./assets/sf-3.jpeg" alt="image"/>
+            <img src="./assets/sf-3.jpeg" alt="image" />
             <div class="straight">
               <p class="web-d">webdevlopment</p>
               | 23 may,2023

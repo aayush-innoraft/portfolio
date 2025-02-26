@@ -37,16 +37,18 @@
 /* links  */
 .links {
   display: flex;
-width: 65%;
-  background-color: white;
+align-items: center;
+justify-content: center;
+
 }
 
 /* img in links  */
 .links img {
-  padding: 38px;
+  padding: 30px;
   width: 30px;
   height: 30px;
   border-right: 2px solid rgba(128, 128, 128, 0.459);
+  background-color: white;
   
 }
 
@@ -75,6 +77,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin-right: -8%;
 }
 
 /* img in intro */
@@ -110,7 +115,7 @@ text-transform: capitalize;
   display: flex;
   justify-content: center;
   position: relative;
-  margin-top: 20%;
+  margin-top: 15%;
   display: flex;
   align-items: center;
 }
@@ -118,7 +123,7 @@ text-transform: capitalize;
 /* mouse */
 .mouse {
   display: flex;
-  margin-right: 10%;
+
   justify-content: center;
   color: rgb(170, 24, 24);
   width: 50px;
@@ -363,8 +368,7 @@ text-transform: capitalize;
   border-radius: 50%;
 }
 
-
-
+/* number  */
 .number {
   display: flex;
   justify-content: space-between;
@@ -1161,6 +1165,61 @@ h1.john {
   background-color: rgba(41, 42, 57, 255);
 }
 
+.ham {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  cursor: pointer;
+  margin-left: 100%;
+}
+
+.ham span {
+  width: 50px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border: 2px solid white;
+}
+
+.ham-menu {
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(96, 80, 112);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.ham-menu a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+/* Classes for toggling the menu */
+.ham-menu.active {
+  display: flex;
+}
+
+.x1 {
+  transform: translateY(15px) rotate(45deg);
+}
+
+.x2 {
+  opacity: 0;
+}
+
+.x3 {
+  transform: translateY(-21px) rotate(-45deg);
+}
 /* Existing CSS code remains unchanged */
 
 /* Media Queries */
@@ -1200,6 +1259,9 @@ h1.john {
   margin-left: 10px;
   gap: 10px
 ;
+}
+.mouse-container{
+  margin-top: 180px;
 }
   /* Adjust header height for smaller screens */
   header {
@@ -1337,7 +1399,10 @@ h1.john {
   .we {
     width: 100%;
   }
-}
+  .ham{
+    display: flex;
+  }
+
 
 /* Existing CSS code remains unchanged */
 
@@ -1358,6 +1423,9 @@ h1.john {
 
   .links {
     display: none !important;
+  }
+  .ham{
+    display: flex;
   }
 
   /* Adjust header for very small screens */
