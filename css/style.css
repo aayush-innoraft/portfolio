@@ -286,7 +286,7 @@ header {
   color: white;
   background-color: transparent;
   border: none;
-  padding: 20px;
+  padding: 10px;
 }
 /* hover effect */
 .CV:hover {
@@ -1137,6 +1137,9 @@ h1.john {
 .us {
   width: 50%;
 }
+p.bold{
+  font-weight: bolder;
+}
 /* sepration div  */
 .we {
   width: 50%;
@@ -1217,6 +1220,7 @@ h1.john {
   justify-content: space-between;
   padding: 20px;
 }
+
 
 /* p in last container  */
 .last-container p {
@@ -1335,6 +1339,7 @@ h1.john {
   }
   .mouse-container {
     margin-top: 180px;
+    padding: 20px 0px;
   }
   .phone-no {
     margin-right: 98px;
@@ -1368,7 +1373,7 @@ h1.john {
   }
   /* Adjust intro section for smaller screens */
   .intro {
-    transform: translateX(-10px) translateY(-50%);
+    transform: translateX(-11px) translateY(52%);
   }
 
   .intro img {
@@ -1518,7 +1523,8 @@ h1.john {
 /* Media Queries */
 @media (max-width: 576px) {
   .container {
-    max-width: 324px;
+    max-width: 100%;
+    padding: 0px 15px;
     margin: 0 auto;
     box-sizing: border-box; 
   }
@@ -1528,8 +1534,19 @@ h1.john {
   * {
     box-sizing: border-box;
   }
-
-
+.us-boxes{
+  gap: 10px
+  ;
+}
+p.our-skill{
+  padding-top: 40px;
+}
+img.pc{
+  margin-left: 20px;
+}
+img.mobile{
+  margin-left: 20px;
+}
   .links {
     display: none !important;
   }
@@ -1721,6 +1738,7 @@ h1.john {
 
   .us-box {
     width: 100%;
+    padding: 10px;
   }
 
   .us-box h1 {
@@ -1860,6 +1878,7 @@ p.choose-plan{
 
   .three-comments {
     gap: 20px;
+    padding: 10px 10px
   }
 
   .client-1 {
@@ -1933,7 +1952,9 @@ p.choose-plan{
   .last-container p {
     font-size: 14px;
   }
-
+.ham-menu{
+  width: 50%;
+}
   .input {
     margin-left: 0;
     font-size: 10px;
