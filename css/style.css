@@ -164,10 +164,9 @@ header {
 .about {
   display: flex;
   padding: 50px;
- /* justify-content: space-between;
+  /* justify-content: space-between;
   */
-  gap: 30px
-  ;
+  gap: 30px;
 }
 
 /* top intro  */
@@ -523,14 +522,14 @@ img.pc {
 
 /* p  */
 .working-content p {
-  font-size: 20px;
-  font-family: "oxygen-lite";
-  color: white;
-  font-family: "oxygen-lite";
   font-size: 30px;
+  font-family: "oxygen-lite";
+
+  text-transform: uppercase;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  color: rgba(255, 255, 255, 0.76);
 }
 
 /* h1  */
@@ -657,7 +656,7 @@ img.arrowws {
 /* our skill  */
 .our-skill {
   /* padding-top: 20px; */
-  font-size: 50px;
+
   display: flex;
 
   color: rgba(128, 128, 128, 0.651);
@@ -667,6 +666,7 @@ img.arrowws {
 /* p  */
 p.our-skill {
   font-size: 30px;
+  text-transform: uppercase;
 }
 
 /* story  */
@@ -788,12 +788,14 @@ h2 {
 
 /* choose plan  */
 .choose-plan {
-  font-size: 50px;
+  font-size: 30px;
+  color: rgba(128, 128, 128, 0.651);
 }
 
 /* our price  */
 .our-price {
-  font-size: 100px;
+  font-size: 60px;
+  padding: 10px;
 }
 
 /* three price  */
@@ -845,6 +847,7 @@ li {
   align-items: center;
   justify-content: center;
   font-size: 30px;
+  color: rgba(128, 128, 128, 0.651);
 }
 
 /* clients  */
@@ -852,8 +855,9 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 60px;
 }
 
 /* clients  */
@@ -901,7 +905,6 @@ h1.john {
   padding: 50px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
 }
 
 /* h1 in container  */
@@ -923,6 +926,7 @@ h1.john {
   align-self: center;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 0px;
 }
 
 /* frist dot  */
@@ -968,11 +972,15 @@ h1.john {
 .news {
   display: flex;
   justify-content: center;
+  font-size: 30px;
+  color: rgba(128, 128, 128, 0.651);
 }
 /* my blog div  */
 .my-blog {
   display: flex;
   justify-content: center;
+  font-size: 50px;
+  text-transform: capitalize;
 }
 /* the main box  */
 .three-blogs {
@@ -1046,26 +1054,38 @@ h1.john {
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
+  
 }
 /* form 1  */
 .form-1 {
-  font-size: 30px;
+  font-size: 20px;
   width: 45%;
+  padding: 20px 10px;
+  border: 2px solid rgba(128, 128, 128, 0.315);
+  
 }
 /* input tag  */
 .write {
   width: 100%;
-  font-size: 46px;
+  font-size: 20px;
   height: 100px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  border: 2px solid rgba(128, 128, 128, 0.315);
 }
+
 /* subjet in input tag  */
 .subject {
   margin-right: 30%;
   font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 /* p in input  */
 .full-name {
   font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 /* p tag in contact us  */
 .shy {
@@ -1091,6 +1111,7 @@ h1.john {
   font-size: 20px;
   font-family: "oxygen-regular";
   padding-bottom: 10px;
+  font-weight: bold;
 }
 .mm {
   margin-top: 30px;
@@ -1098,7 +1119,7 @@ h1.john {
 
 /* button  */
 .button {
-  height: 100px;
+  height: 70px;
   aspect-ratio: 2/1;
   display: flex;
   position: relative;
@@ -1119,6 +1140,7 @@ h1.john {
   z-index: 2;
   color: red;
   cursor: pointer;
+  padding-left: 30px;
 }
 /* button div  */
 .button div {
@@ -1140,7 +1162,7 @@ h1.john {
 .us {
   width: 50%;
 }
-p.bold{
+p.bold {
   font-weight: bolder;
 }
 /* sepration div  */
@@ -1152,7 +1174,7 @@ p.bold{
 }
 /* small boxes  */
 .location-logo i {
-  font-size: 40px;
+  font-size: 30px;
   gap: 20px;
   display: flex;
   object-fit: cover;
@@ -1169,15 +1191,17 @@ p.bold{
   display: flex;
 }
 .phone-no {
-  margin-right: 130px;
+  margin-right: 66px;
   margin-top: 30px;
   font-size: 20px;
   font-family: "oxygen-regular";
+  font-weight: bold;
 }
 .Email {
   margin-top: 30px;
   font-size: 20px;
   font-family: "oxygen-regular";
+  font-weight: bold;
 }
 /* location logo  */
 .location-logo {
@@ -1201,10 +1225,18 @@ p.bold{
 .four-straight {
   display: flex;
   gap: 50px;
+  margin-top: 65px;
+}
+.h1-small{
+  font-size: 20px;
+}
+.white-one{
+  background-color: white;
+  border: 2px solid rgba(128, 128, 128, 0.281);
 }
 /* h1  */
 .four-straight i {
-  font-size: 40px;
+  font-size: 30px;
   border-radius: 50%;
   object-fit: contain;
   display: flex;
@@ -1223,7 +1255,6 @@ p.bold{
   justify-content: space-between;
   padding: 20px;
 }
-
 
 /* p in last container  */
 .last-container p {
@@ -1529,7 +1560,7 @@ p.bold{
     max-width: 100%;
     padding: 0px 15px;
     margin: 0 auto;
-    box-sizing: border-box; 
+    box-sizing: border-box;
   }
   body {
     max-width: 100%;
@@ -1537,19 +1568,18 @@ p.bold{
   * {
     box-sizing: border-box;
   }
-.us-boxes{
-  gap: 10px
-  ;
-}
-p.our-skill{
-  padding-top: 40px;
-}
-img.pc{
-  margin-left: 20px;
-}
-img.mobile{
-  margin-left: 20px;
-}
+  .us-boxes {
+    gap: 10px;
+  }
+  p.our-skill {
+    padding-top: 40px;
+  }
+  img.pc {
+    margin-left: 20px;
+  }
+  img.mobile {
+    margin-left: 20px;
+  }
   .links {
     display: none !important;
   }
@@ -1571,20 +1601,20 @@ img.mobile{
     margin-bottom: 20px;
     font-size: 12px;
   }
-  .full-name{
+  .full-name {
     font-size: 12px;
   }
-  .phone-no{
+  .phone-no {
     margin-left: 35px;
-  
+
     font-size: 10px;
   }
-.Email{
-  font-size: 10px;
-}
-.ok{
-  font-size: 20px;
-}
+  .Email {
+    font-size: 10px;
+  }
+  .ok {
+    font-size: 20px;
+  }
   .intro {
     transform: translateX(-5%) translateY(53%);
   }
@@ -1809,13 +1839,13 @@ img.mobile{
   .pricing h2 {
     font-size: 24px;
   }
-.three-price{
-  display: flex;
-  flex-direction: column;
-}
-.price-three{
-  margin-left: 0;
-}
+  .three-price {
+    display: flex;
+    flex-direction: column;
+  }
+  .price-three {
+    margin-left: 0;
+  }
   .price-one h1 {
     font-size: 24px;
     align-self: center;
@@ -1825,23 +1855,23 @@ img.mobile{
     font-size: 20px;
     align-self: center;
   }
-p.news{
-  padding: 50px;
-}
-.three-dots{
-  padding: 30px 0px;
-  margin-left: 38%;
-}
+  p.news {
+    padding: 50px;
+  }
+  .three-dots {
+    padding: 30px 0px;
+    margin-left: 38%;
+  }
   .price-one ul {
     font-size: 14px;
     padding: 0px 20px;
   }
-  .new-class{
+  .new-class {
     margin: 0;
   }
-p.choose-plan{
-  font-size: 30px;
-}
+  p.choose-plan {
+    font-size: 30px;
+  }
   /* Adjust clients section for very small screens */
 
   .we-clients {
@@ -1859,10 +1889,10 @@ p.choose-plan{
     margin: 0;
     display: contents;
   }
-  h1.who-client{
+  h1.who-client {
     padding: 20px;
   }
-  h1.we-clients{
+  h1.we-clients {
     padding: 20px;
   }
   .clients-container h1 {
@@ -1881,7 +1911,7 @@ p.choose-plan{
 
   .three-comments {
     gap: 20px;
-    padding: 10px 10px
+    padding: 10px 10px;
   }
 
   .client-1 {
@@ -1955,14 +1985,14 @@ p.choose-plan{
   .last-container p {
     font-size: 14px;
   }
-.ham-menu{
-  width: 50%;
-}
+  .ham-menu {
+    width: 50%;
+  }
   .input {
     margin-left: 0;
     font-size: 10px;
   }
-  .home{
+  .home {
     margin-top: 30px;
   }
 }
